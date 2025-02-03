@@ -1,10 +1,10 @@
-import Navbar from '.../../../src/tutorial/04-project-structure/starter/Navbar/Navbar'
+import Form from './tutorial/06-forms/starter/04-other-inputs'
 
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className='container'>
+      <Form/>
     </div>
   )
 }
