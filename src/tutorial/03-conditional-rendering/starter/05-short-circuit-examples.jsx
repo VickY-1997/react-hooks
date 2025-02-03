@@ -2,13 +2,17 @@ import { useState } from 'react';
 
 const ShortCircuitExamples = () => {
   // falsy
-  const [text, setText] = useState('');
+  const [text, setText] = useState("ds");
   // truthy
   const [name, setName] = useState('susan');
   const [user, setUser] = useState({ name: 'john' });
   const [isEditing, setIsEditing] = useState(false);
 
-  return <h2>short circuit - examples</h2>;
+  return (
+    <div>
+      <h3>{<div>Short Circuit Examples</div> && text}</h3>
+    </div>
+  )
 };
 
 export default ShortCircuitExamples;
