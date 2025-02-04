@@ -1,4 +1,4 @@
-import Form from './tutorial/06-forms/starter/04-other-inputs'
+import Form from './tutorial/11-performance/starter/03-hooks/index'
 
 
 const App = () => {

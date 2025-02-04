@@ -5,6 +5,7 @@ const UncontrolledInputs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(e.target.name)
   };
   return (
     <div>
